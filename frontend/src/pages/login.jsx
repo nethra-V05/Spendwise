@@ -39,13 +39,13 @@ function Login() {
   }
   return ( 
     <form onSubmit={handleSubmit(onSubmit1)}>
-         <input type="text" placeholder="Enter your name" {...register("name")}/>
+         <input type="text" placeholder="Enter your name." {...register("name")}/>
           <p>{errors.name?.message}</p>
-          <input type="email" placeholder="Enter your email" {...register("email")}/>
+          <input type="email" placeholder="Enter your email." {...register("email")}/>
           <p>{errors.email?.message}</p>
-          <input type="password" placeholder="Enter your password" {...register("password")}/>
+          <input type="password" placeholder="Enter your password." {...register("password")}/>
           <p>{errors.password?.message}</p>
-          <input type="number" placeholder="Enter your age" {...register("age")}/>
+          <input type="number" placeholder="Enter your age." {...register("age")}/>
           <p>{errors.age?.message}</p>
           <button type="submit">Submit</button>
       </form>
