@@ -16,7 +16,7 @@ function Dashboard(){
 
         <div className="bg-white p-4">
           <h2 className="text-gray-500">Total Expenses</h2>
-          <p className="font-bold text-red-500">₹12,500</p>
+          <p className="font-bold text-red-500">₹10,500</p>
         </div>
 
         <div className="bg-white p-4">
